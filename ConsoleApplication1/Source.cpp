@@ -1,0 +1,8 @@
+#include "Source.h"
+
+void abc(int* x, int* y) {
+	int tmp;
+	tmp = *x;
+	*x = *y;
+	*y = tmp;
+}
